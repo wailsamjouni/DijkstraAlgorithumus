@@ -11,6 +11,7 @@ public class Graph {
         this.nodeArrayList = nodeArrayList;
     }
 
+    //Using PriorityQueue
     public void DijkstraAlgorithm(){
 
         ArrayList<Node> nodeArrayList = this.nodeArrayList;
@@ -31,7 +32,7 @@ public class Graph {
             }
         }
     }
-
+    //without PriorityQueue.
     public void dijkstra() {
         ArrayList<Node> nodeArrayList = this.nodeArrayList;
         int nextChoosenNode = 0;
